@@ -1,0 +1,11 @@
+import random
+print("This Programme Generates a Rondom Number between the range you want /n")
+print ("Please Enter your Min value\n")
+x=input()
+
+print("Please Enter your Max value\n")
+y=input()
+
+Random_Number=random.randint(x,y)
+
+print ("Your Number number is : %d" %Random_Number)
